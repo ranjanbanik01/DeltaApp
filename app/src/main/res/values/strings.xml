@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">DeltaApp</string>
+    <string name="action_share_link">Share Link</string>
+    <string name="action_contact_us">Contact Us</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_install_app">Install App</string>
+
+    <string name="current_location">CURRENT LOCATION</string>
+    <string name="matching_cities">MATCHING CITIES</string>
+
+    <string-array name="date_arrays">
+        <item>Today, Jul 17, 2017</item>
+        <item>Tomorrow, Jul 18, 2017</item>
+        <item>Yesterday, Jul 16, 2017</item>
+    </string-array>
+
+
+</resources>

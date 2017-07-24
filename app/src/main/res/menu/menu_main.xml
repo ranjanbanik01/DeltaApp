@@ -1,0 +1,35 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="instantapp.delta.com.deltaapp.MainActivity">
+
+    <item
+        android:id="@+id/action_share_link"
+        android:orderInCategory="100"
+        android:title="@string/action_share_link"
+        android:icon="@android:drawable/ic_menu_share"
+        app:showAsAction="always|withText" />
+    <item
+        android:id="@+id/action_contact_us"
+        android:orderInCategory="100"
+        android:title="@string/action_contact_us"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="@string/action_settings"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_login"
+        android:orderInCategory="100"
+        android:title="@string/action_install_app"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_settings1"
+        android:icon="@android:drawable/ic_popup_sync"
+        android:title=""
+        app:showAsAction="ifRoom">
+    </item>
+
+</menu>
