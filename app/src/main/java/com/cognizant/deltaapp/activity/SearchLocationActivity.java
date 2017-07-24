@@ -13,7 +13,7 @@ import android.widget.EditText;
 import android.widget.ListView;
 import android.widget.TextView;
 
-public class SerachActivity extends AppCompatActivity {
+public class SearchLocationActivity extends AppCompatActivity {
 
     private static final String[] FROM_LOCATIONS = new String[]{"Atlanta, GA (ATL)", "Knoxville, TN (TYS)", "Chattanooga, TN (CHA)"};
     private static final String[] TO_LOCATIONS = new String[]{"Orange Country, CA (SNA)"};

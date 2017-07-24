@@ -15,7 +15,7 @@ import android.widget.TextView;
 import com.cognizant.deltaapp.Builder.DeltaRequestBuilder;
 import com.cognizant.deltaapp.Util.DeltaRequestSerializer;
 
-public class MainActivity extends AppCompatActivity {
+public class FlightStatusActivity extends AppCompatActivity {
 
     private static final int FROM_LOCATION_CODE = 111;
     private static final int TO_LOCATION_CODE = 222;
@@ -39,7 +39,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
 
-                Intent intent = new Intent(MainActivity.this, SerachActivity.class);
+                Intent intent = new Intent(FlightStatusActivity.this, SearchLocationActivity.class);
                 intent.putExtra("FROM_LOCATION", true);
                 startActivityForResult(intent, FROM_LOCATION_CODE);
             }
@@ -50,7 +50,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
 
-                Intent intent = new Intent(MainActivity.this, SerachActivity.class);
+                Intent intent = new Intent(FlightStatusActivity.this, SearchLocationActivity.class);
                 intent.putExtra("FROM_LOCATION", false);
                 startActivityForResult(intent, TO_LOCATION_CODE);
             }
@@ -60,7 +60,7 @@ public class MainActivity extends AppCompatActivity {
         viewStatus.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this, FlightsListActivity.class);
+                Intent intent = new Intent(FlightStatusActivity.this, FlightsListActivity.class);
                 startActivity(intent);
             }
         });
